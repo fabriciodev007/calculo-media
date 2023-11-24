@@ -5,7 +5,7 @@ numero = 1
 qnt_alunos = int(input("Digite a quantidade de alunos?\n"))
 while numero<=qnt_alunos:
   print("{} de {}".format(numero, qnt_alunos))
-  nome = input("Nome do aluno\n")
+  nome = input("Nome do aluno?\n")
   nota1 = float(input("Insira a nota 1\n"))
   nota2 = float(input("Insira a nota 2\n"))
 
