@@ -13,5 +13,11 @@ while numero<=qnt_alunos:
 
   print("{}, sua média é {}".format(nome, media))
 
+  if media >=7:
+    print("Aluno passou de ano.")
+  elif media < 7 and media >= 6:
+    print("Aluno está de recuperação. Precisa fazer prova de recuperação.")
+  else:
+    print("Deu ruim! Aluno reprovado.")
   numero +=1
 
